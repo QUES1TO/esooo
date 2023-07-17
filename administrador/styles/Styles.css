@@ -1,0 +1,23 @@
+.conn{
+    width: 190px;
+    background: #4091e2;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: ´calibri´;
+    font-size: 18px;
+    color: white;
+    text-align:center;
+ }
+ .registro{
+    margin-top: 100px;
+    background: #043d4e;
+    width: 250px;
+    padding: 30px;
+    margin: auto;
+    font-family: ´calibri´;
+    color: white;
+    box-shadow: 7px 13px 37px #000;;
+    
+    }
