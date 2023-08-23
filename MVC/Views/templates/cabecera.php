@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sitioweb</title>
-    <link rel="stylesheet" href="css/bootstrap.css">
+    
+    <link rel="stylesheet" href="Views/styles/bootstrap.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
@@ -18,7 +19,7 @@
                 <a class="nav-link" href="nosotros.php">NOSOTROS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="productos.php">PRODUCTOS</a>
+                <a class="nav-link" href="Views/templates/Productos.php">PRODUCTOS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="conse.php">CONSESIONARIOS</a>

@@ -10,8 +10,8 @@
             <hr class="my-2">
 
             <div class="let" >
-               <img src="img/moto2.jpg">
-
+               <img src="Views/img/moto2.jpg" >
+              <p></p>
                <h1>ESTAMOS PARA ASESORARTE</h1>
                <h2>Visitanos en nuestras secursales para poder atenderte de la mejor manera
                  contamos con los asesores mas experimentados para que te ayuden a elegir la 
