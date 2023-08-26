@@ -19,7 +19,7 @@
                 <a class="nav-link" href="nosotros.php">NOSOTROS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Views/templates/Productos.php">PRODUCTOS</a>
+                <a class="nav-link" href="pro">PRODUCTOS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="conse.php">CONSESIONARIOS</a>
