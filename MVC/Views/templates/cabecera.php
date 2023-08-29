@@ -13,7 +13,7 @@
         <a class="nav-item nav-link active" href="#">DREAM MOTORCYCLE<span class="sr-only"></span></a>
             
             <li class="nav-item">
-                <a class="nav-link" href="index.php">INICIO</a>
+                <a class="nav-link" href="ini">INICIO</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="nosotros.php">NOSOTROS</a>
