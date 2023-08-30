@@ -1,7 +1,7 @@
 
 <?php include ("cabecera.php");?>
-<link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/Views/styles/styles.css">
 
+<link rel="stylesheet" href="/Views/Styles/Styles.css">
           <div class="jumbotron">
              <h1 class="let">MOTOS DE ENSUEÑO</h1>
             <img src="Views/img/moto.jpg" class="mot">

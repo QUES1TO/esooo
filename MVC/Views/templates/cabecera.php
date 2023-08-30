@@ -25,7 +25,7 @@
                 <a class="nav-link" href="conse.php">CONSESIONARIOS</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="administrador/index.php">ADMI</a>
+                <a class="nav-link" href="admi">ADMI</a>
             </li>
         </ul>
     </nav>

@@ -6,6 +6,8 @@ require_once 'ComidaController.php';
 require_once 'MainController.php';
 require_once 'ProductosController.php';
 require_once 'TipoController.php';
+require_once 'AdministradorController.php';
+require_once 'InicioController.php';
 class Controller
 {
     public function redirect($route,$data = null)
