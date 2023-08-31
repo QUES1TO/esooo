@@ -1,10 +1,3 @@
-
-
-<?php
-if($_POST){
-   header("Location:inicio");
-}
-?>
 <!doctype html>
 <html lang="en">
   <head>
@@ -33,12 +26,14 @@ if($_POST){
 
                     <div class="card-body">
 
-                       <form method="POST" >
-
-                       <div class = "form-group">
-                       <label>USUARIO</label>
-                       <input type="text" class="form-control" name="usuario"  placeholder="ESCRIBE TU USUARIO">
-                       </div>
+                    <form action="/esooo/MVC/inicio/create" method="POST" enctype="multipart/form-group" >
+                      
+                      <div>
+                        <div class = "form-group">
+                        <label>USUARIO</label>
+                        <input type="text" class="form-control" name="usuario"  placeholder="ESCRIBE TU USUARIO">
+                        </div>
+                      </div>  
                        <div class="form-group">
                        <label for="exampleInputPassword1">CONTRASEÑA:</label>
                        <input type="password" class="form-control" name="contraseña" placeholder="ESCRIBE TU CONTRASEÑA">
