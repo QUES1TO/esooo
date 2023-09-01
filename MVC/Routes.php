@@ -4,9 +4,10 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $rout
     $router->addRoute('GET', '/ini', 'MainController@index');
     $router->addRoute('GET', '/pro', 'ProductosController@index');
     $router->addRoute('GET', '/admi', 'AdministradorController@index');
-    $router->addRoute('GET', '/inicio/register ', 'inicioController@registerForm');
+    $router->addRoute('GET', '/inicio/register', 'inicioController@registerForm');
     $router->addRoute('POST', '/inicio/create', 'inicioController@create');
-   
+    $router->addRoute('POST', '/adminLogin', 'AdministradorController@adminLogin');
+
     $router->addRoute('GET', '/ajax', 'UserController@ajaxResponse');
     $router->addRoute('POST', '/user', 'UserController@create');
     $router->addRoute('GET', '/user/{id}', 'UserController@show');

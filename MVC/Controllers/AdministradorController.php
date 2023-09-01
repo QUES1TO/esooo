@@ -13,6 +13,14 @@ class AdministradorController extends Controller {
                 
         $view->render();
     }
+    public function adminLogin()
+    {          
+        require_once __DIR__ . '/../Views/AdministradorIndexView.php';
+        $view = new AdministradorIndexView();
+                
+        
+        $this->redirect("/esooo/MVC/inicio/register");
+    }
     
     
 }

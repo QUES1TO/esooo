@@ -26,7 +26,7 @@
 
                     <div class="card-body">
 
-                    <form action="/esooo/MVC/inicio/create" method="POST" enctype="multipart/form-group" >
+                    <form action="adminLogin" method="POST" enctype="multipart/form-group" >
                       
                       <div>
                         <div class = "form-group">
