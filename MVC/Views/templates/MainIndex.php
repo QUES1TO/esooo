@@ -1,6 +1,5 @@
 
 <?php include ("cabecera.php");?>
-
 <link rel="stylesheet" href="/Views/Styles/Styles.css">
           <div class="jumbotron">
              <h1 class="let">MOTOS DE ENSUEÑO</h1>

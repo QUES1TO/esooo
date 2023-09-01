@@ -1,5 +1,5 @@
 
-<?php include ("template/cabecera.php");?>
+<?php include ("cabecera.php");?>
             <div class="col-MD-12">
 
               <div class="jumbotron">
@@ -13,5 +13,5 @@
               </div>
 
             </div>
-<?php include ("template/pie.php");?>
+<?php include ("pie.php");?>
        

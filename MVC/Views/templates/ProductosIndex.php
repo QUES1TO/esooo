@@ -65,4 +65,4 @@
 </div>
 <div>
 
-<?php include ("template/pie.php");?>
+<?php include ("pie.php");?>

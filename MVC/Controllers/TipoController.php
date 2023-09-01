@@ -9,10 +9,10 @@ class TipoController extends Controller {
     //select id, nombre from User
     public function index()
     {          
-        require_once __DIR__ . '/../Views/ComidaIndexView.php';
-        $view = new ComidaIndexView();
-        $comida=Comida::select("nombre,descripcion")->where('nombre','=','test2')->orWhere('nombre','=','test3')->get();        
-        $view->render($comida);
+        require_once __DIR__ . '/../Views/TipoIndexView.php';
+        $view = new TipoIndexView();
+        $Tipo=Tipo::select("nombre,descripcion")->where('nombre','=','test2')->orWhere('nombre','=','test3')->get();        
+        $view->render($Tipo);
     }
     public function registerForm()
     {
@@ -32,7 +32,7 @@ class TipoController extends Controller {
         ];
         $user = Tipo::insert($data);
                     
-        $this->redirect("/icepalWeb1/MVC/Tipo");
+        $this->redirect("/esooo/MVC/Tipo");
     }
     
     
