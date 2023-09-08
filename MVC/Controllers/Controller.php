@@ -8,6 +8,8 @@ require_once 'ProductosController.php';
 require_once 'TipoController.php';
 require_once 'AdministradorController.php';
 require_once 'InicioController.php';
+require_once 'ProducController.php';
+
 class Controller
 {
     public function redirect($route,$data = null)

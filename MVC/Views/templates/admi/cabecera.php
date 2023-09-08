@@ -17,9 +17,9 @@
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">ADMINISTRADOR DEL SITIO WEB <span class="sr-only">(current)</span></a>
    
-            <a class="nav-item nav-link" href="<?php echo $url."/MVC/tipo/create";?>"">NUEVO PRODUCTOS</a>
+            <a class="nav-item nav-link" href="<?php echo $url."/MVC/ala";?>"">NUEVO PRODUCTOS</a>
             <a class="nav-item nav-link" href="<?php echo $url."/MVC/admi";?>"">CERRAR</a>
-            <a class="nav-item nav-link" href="<?php echo $url;?>">VER SITIO WEB</a>
+            <a class="nav-item nav-link" href="<?php echo $url."/MVC/ini";?>">VER SITIO WEB</a>
         </div>
     </nav>
 

@@ -10,24 +10,27 @@
     </style>
 </head>
 <body>
-
-<table>
-  <thead>
-    <tr>
-      <th>Nombre</th>
-      <th>Descripcion</th>      
-    </tr>
-  </thead>
-  <tbody>
-    <?php
-    foreach($data as $row)
-    {
-      echo "<tr>";
-      echo "<td>".$row->getNombre()."</td>";
-      echo "<td>".$row->getDescripcion()."</td>";      
-      echo "</tr>";
-    }
-    ?>        
+<div class="container">
+        <form class="col-6" action="AdornoRegister" method="POST" enctype="multipart/form-data">
+        <div class="mb-3 col-12">
+            <label class="form-label" for="fname">Nombre_adorno</label>
+            <input class="miInput form-control" type="text" id="fname" name="Nombre_adorno" placeholder="Nombre de el adorno">
+            <label class="form-label" for="fname">Stock</label>
+            <input class="miInput form-control" type="text" id="fname" name="Stock" placeholder="cabtidad de stock">
+            <lobel class="form-label" for="fname">Precio</lobel>
+            <input class="miInput form-control" type="text" id="fname" name="Precio" placeholder="precio del producto">
+            <label for="lname">Imagen del producto:</label>
+              <input type="file" name="Imagen">
+              <?php
+              echo '<select name="Id_categoria">';
+              foreach($categorias as $categoria)
+              {
+                echo '<option value="'.$categoria->getId().'">'.$categoria->getNombre().'</option>';
+              }
+              echo '</select>';
+            ?>
+        </div> 
+     
     <!-- Puedes agregar más filas aquí -->
   </tbody>
 </table>
