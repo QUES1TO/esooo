@@ -6,9 +6,12 @@ require_once 'ComidaController.php';
 require_once 'MainController.php';
 require_once 'ProductosController.php';
 require_once 'TipoController.php';
+require_once 'CilindradaController.php';
 require_once 'AdministradorController.php';
 require_once 'InicioController.php';
 require_once 'ProducController.php';
+require_once 'MotoController.php';
+require_once 'MarcaController.php';
 
 class Controller
 {

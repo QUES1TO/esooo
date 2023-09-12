@@ -20,9 +20,14 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $rout
     $router->addRoute('GET', '/comida/register', 'ComidaController@index');
     $router->addRoute('POST', '/comida/create', 'ComidaController@create');
 
-    $router->addRoute('GET', '/tipo', 'ComidaController@index');
     $router->addRoute('GET', '/tipo/register', 'TipoController@registerForm');
     $router->addRoute('POST', '/tipo/create', 'TipoController@create');
+    $router->addRoute('GET', '/Cilindrada/register', 'CilindradaController@registerForm');
+    $router->addRoute('POST', '/Cilindrada/create', 'CilindradaController@create');
+    $router->addRoute('GET', '/Moto/register', 'MotoController@registerForm');
+    $router->addRoute('POST', '/Moto/create', 'MotoController@create');
+    $router->addRoute('GET', '/Marca/register', 'MarcaController@registerForm');
+    $router->addRoute('POST', '/Marca/create', 'MarcaController@create');
     // Agrega más rutas según tus necesidades
 });
 
