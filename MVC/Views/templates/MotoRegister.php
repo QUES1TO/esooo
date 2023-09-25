@@ -30,14 +30,7 @@
             <label class="form-label" for="fname">Img</label>
             <input class="miInput form-control" type="text" id="fname" name="Img" placeholder="Img">
 
-              <?php
-              echo '<select name="Id_categoria">';
-              foreach($categorias as $categoria)
-              {
-                echo '<option value="'.$categoria->getId().'">'.$categoria->getModelo().'</option>';
-              }
-              echo '</select>';
-            ?>
+             
         </div>           
               <button class="btn btn-primary" type="submit">Enviar</button>
         </form>

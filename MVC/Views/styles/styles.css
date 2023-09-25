@@ -103,7 +103,7 @@ table {
   }
 
   th, td {
-    border: 1px solid black;
+    border: 1px solid rgb(43, 53, 65);
     padding: 8px;
   }
 
@@ -116,6 +116,14 @@ table {
   left: 450px;
     
 }
+.mott{
+  width: 1200px;
+  box-shadow: 7px 13px 307px #000;
+  position:absolute;
+  top: 900px;
+left: 350px;
+  
+}
 
 .moto{
   width: 900px;
@@ -127,14 +135,14 @@ table {
 
 .let{
 
-        padding: 50px;
-        margin: 10px;
-        color: white;
-        box-shadow: 20px 13px 300px #000;
-        font-family: 'calibri';
-        font-size: 20px;
-        text-align: center;
-        padding: 20px;
+  padding: 10px;
+  margin: 20px;
+  color: white;
+  box-shadow: 20px 13px 500px #104463;
+  font-family: 'calibri';
+  font-size: 30px;
+  text-align: center;
+  padding: 20px;
 }
 .let h1 {
     font-size: 4rem ;
@@ -193,5 +201,23 @@ table {
     font-size: 20px;
     text-align: center;
     padding: 20px;
+
+}
+.but{
+  color: rgb(248, 247, 247);
+  text-align: center;
+  background: rgb(4, 116, 47);
+  margin: 545px;
+  padding: 20px;
+  margin-top: 650px;
+  font-size: 20px;
+  font-family: 'arial black';
+}
+.prop{
+  width: 30px;
+  position:absolute;
+  box-shadow: 5px 5px 5px #000;
+  top: 1000px;
+left: 1000px;
 
 }

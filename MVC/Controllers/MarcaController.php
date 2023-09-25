@@ -21,10 +21,14 @@ class MarcaController extends Controller {
     }
     public function create()
     {
+        
         $nombre = $_POST['Nombre'];
+       
+        
 
         $data = [            
-            'Nombre'=> $nombre,           
+            'Nombre'=> $nombre
+                   
         ];
         $user = Tipo::insert($data);
                     

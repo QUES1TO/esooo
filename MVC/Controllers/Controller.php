@@ -12,6 +12,12 @@ require_once 'InicioController.php';
 require_once 'ProducController.php';
 require_once 'MotoController.php';
 require_once 'MarcaController.php';
+require_once 'NombreController.php';
+require_once 'NakedController.php';
+require_once 'CrossController.php';
+require_once 'NinjaController.php';
+require_once 'DobleController.php';
+require_once 'TrabajoController.php';
 
 class Controller
 {
