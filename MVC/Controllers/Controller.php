@@ -5,6 +5,7 @@ require_once 'UserController.php';
 require_once 'ComidaController.php';
 require_once 'MainController.php';
 require_once 'ProductosController.php';
+require_once 'NosotrosController.php';
 require_once 'TipoController.php';
 require_once 'CilindradaController.php';
 require_once 'AdministradorController.php';

@@ -5,7 +5,7 @@ class Moto extends Model {
          
     public $Modelo;    
     public $Precio;   
-    public $Precio_original;    
+    public $Original;    
     public $Stock; 
     public $Img;
     public $id;        
@@ -60,14 +60,14 @@ class Moto extends Model {
         return $this->Precio;
     }    
 
-    public function setPrecio_original($Precio_original)
+    public function setOriginal($Original)
     {
-        $this->Precio_original = $Precio_original;
-        $this->data["Precio_original"] = $Precio_original;
+        $this->Original = $Original;
+        $this->data["Original"] = $Original;
     }
-    public function getPrecio_original()
+    public function getOriginal()
     {
-        return $this->Precio_original;
+        return $this->Original;
     }
 
     public function setStock($Stock)

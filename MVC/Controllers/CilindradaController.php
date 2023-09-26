@@ -11,7 +11,7 @@ class CilindradaController extends Controller {
     {          
         require_once __DIR__ . '/../Views/CilindradaIndexView.php';
         $view = new CilindradaIndexView();
-        $Cilindrada=Cilindrada::select("Cc")->where('Cc','=','test2')->orWhere('Cc','=','test3')->get();        
+        $Cilindrada=Cilindrada::select("Cc")->get();        
         $view->render($Cilindrada);
     }
     public function registerForm()
@@ -27,7 +27,7 @@ class CilindradaController extends Controller {
         
 
         $data = [            
-            'Cc'=> $Cc,
+            'Cc'=> $Cc
                       
         ];
         $user = Cilindrada::insert($data);

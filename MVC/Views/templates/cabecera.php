@@ -16,14 +16,12 @@
                 <a class="nav-link" href="ini">INICIO</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="nosotros.php">NOSOTROS</a>
+                <a class="nav-link" href="noso">NOSOTROS</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="pro">PRODUCTOS</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="conse.php">CONSESIONARIOS</a>
-            </li>
+            
             <li class="nav-item">
                 <a class="nav-link" href="admi">ADMI</a>
             </li>

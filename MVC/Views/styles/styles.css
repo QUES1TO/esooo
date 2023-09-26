@@ -221,3 +221,24 @@ left: 350px;
 left: 1000px;
 
 }
+.ubi{
+  width: 400px;
+  box-shadow: 7px 13px 307px #000;
+  position:absolute;
+  top: 800px;
+left: 280px;
+
+}
+.butt{
+  color: rgb(248, 247, 247);
+ 
+  background: rgb(28, 139, 212);
+  margin: 485px;
+  padding: 10px;
+  margin-top: 150px;
+  
+  font-family: 'arial black';
+}
+.fon{
+  background: #2a7289;
+}

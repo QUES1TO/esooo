@@ -11,7 +11,7 @@ class MotoController extends Controller {
     {          
         require_once __DIR__ . '/../Views/MotoIndexView.php';
         $view = new MotoIndexView();
-        $Moto=Moto::select("Modelo,Precio,Precio_original,Stock,Img")->where('Modelo','=','test2')->orWhere('Modelo','=','test3')->get();        
+        $Moto=Moto::select("Modelo,Precio,Original,Stock,Img")->get();        
         $view->render($Moto);
     }
     public function registerForm()
@@ -24,13 +24,13 @@ class MotoController extends Controller {
     {
         $Modelo = $_POST['Modelo'];
         $Precio = $_POST['Precio'];
-        $Precio_original = $_POST['Precio_original'];
+        $Original = $_POST['Original'];
         $Stock = $_POST['Stock'];
         $Img = $_POST['Img'];
         $data = [            
             'Modelo'=> $Modelo,
             'Precio'=> $Precio,     
-            'Precio_original'=> $Precio_original,
+            'Original'=> $Original,
             'Stock'=> $Stock,    
             'Img'=> $Img        
         ];

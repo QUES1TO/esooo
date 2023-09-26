@@ -8,9 +8,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Título de la página</title>
 </head>
-</d>
-<body>
 
+<body>
+<h1 style="color: #192327;">aaaaaaaaaa </h1>
 <form class="col-6" action="create" method="POST" enctype="multipart/form-data">
         <div class="mb-3 col-12">
             <label class="form-label" for="fname">Nombre</label>

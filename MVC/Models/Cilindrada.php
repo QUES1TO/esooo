@@ -38,7 +38,7 @@ class Cilindrada extends Model {
     public function setCc($Cc)
     {
         $this->Cc = $Cc;
-        $this->data["<Cc"] = $<Cc;
+        $this->data["Cc"] = $Cc;
     }
     public function getCc()
     {

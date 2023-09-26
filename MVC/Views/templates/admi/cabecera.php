@@ -8,11 +8,12 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="Views/Styles/Styles.css">
   </head>
   
 
     <?php $url="http://".$_SERVER["HTTP_HOST"]."/esooo" ?>
-
+    <body style=" background: #192327;;">
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="nav navbar-nav">
             <a class="nav-item nav-link active" href="#">ADMINISTRADOR DEL SITIO WEB <span class="sr-only">(current)</span></a>

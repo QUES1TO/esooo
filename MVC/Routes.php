@@ -13,6 +13,8 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $rout
     $router->addRoute('GET', '/ninja', 'NinjaController@index');
     $router->addRoute('GET', '/doble', 'dobleController@index');
     $router->addRoute('GET', '/traba', 'TrabajoController@index');
+    $router->addRoute('GET', '/noso', 'NosotrosController@index');
+
 
     $router->addRoute('GET', '/ajax', 'UserController@ajaxResponse');
     $router->addRoute('POST', '/user', 'UserController@create');
