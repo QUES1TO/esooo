@@ -5,6 +5,8 @@ require_once __DIR__ . '/../DataBase/Connector.php';
 require_once 'User.php';
 require_once 'Comida.php';
 require_once 'Tipo.php';
+require_once 'Marca.php';
+require_once 'Nombre.php';
 
 class Model
 {

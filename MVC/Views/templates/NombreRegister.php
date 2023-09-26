@@ -11,14 +11,11 @@
 </d>
 <body>
 
-
 <form class="col-6" action="create" method="POST" enctype="multipart/form-data">
         <div class="mb-3 col-12">
             <label class="form-label" for="fname">Nombre</label>
             <input class="miInput form-control" type="text" id="fname" name="Nombre" placeholder="Nombre">
-            
-            
-              
+               
         </div>           
               <button class="btn btn-primary" type="submit">Enviar</button>
         </form>

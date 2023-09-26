@@ -3,7 +3,7 @@ namespace Controllers;
 use Views\NombreIndexView;
 use Views\NombreRegisterView;
 use Controllers\Controller;
-use Models\Marca;
+use Models\Nombre;
 class NombreController extends Controller {
     //select id, nombre from User
     public function index()
@@ -23,13 +23,12 @@ class NombreController extends Controller {
     {
         $nombre = $_POST['Nombre'];
 
-        $data = [            
-            'Nombre'=> $nombre,           
+        $data = [
+            'Nombre'=> $nombre          
         ];
-        $user = Tipo::insert($data);
+        $user = Nombre::insert($data);
                     
         $this->redirect("/esooo/MVC/Nombre");
     }
-    
     
 }

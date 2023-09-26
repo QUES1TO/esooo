@@ -2,7 +2,7 @@
 namespace Views;
 class TipoIndexView {
     public function render($data) {
-       require_once 'templates/TipoRegister.php';
+       require_once 'templates/TipoIndex.php';
         
     }
 }

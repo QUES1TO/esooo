@@ -30,7 +30,7 @@ class MarcaController extends Controller {
             'Nombre'=> $nombre
                    
         ];
-        $user = Tipo::insert($data);
+        $user = marca::insert($data);
                     
         $this->redirect("/esooo/MVC/Marca");
     }
