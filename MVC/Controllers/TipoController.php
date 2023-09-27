@@ -21,7 +21,7 @@ public function ajaxResponse()
     {          
         require_once __DIR__ . '/../Views/TipoIndexView.php';
         $view = new TipoIndexView();
-        $Tipo=Tipo::select("nombre,descripcion")->get();        
+        $Tipo=Tipo::select("*")->get();        
         $view->render($Tipo);
     }
 
@@ -75,11 +75,18 @@ public function delete($id)
     {
         $nombre = $_POST['Nombre'];
         $apellido = $_POST['Descripcion'];
-        
+        $precio = $_POST['Precio'];
+        $modelo = $_POST['Modelo'];
+        $stock = $_POST['Stock'];
+        $cilindrada = $_POST['Cilindrada'];
 
         $data = [            
             'Nombre'=> $nombre,
-            'Descripcion'=> $apellido            
+            'Descripcion'=> $apellido,    
+            'Precio'=> $precio,
+            'Modelo'=> $modelo,
+            'Stock'=> $stock,
+            'Cilindrada'=> $cilindrada      
         ];
         $user = Tipo::insert($data);
                     

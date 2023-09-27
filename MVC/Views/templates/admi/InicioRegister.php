@@ -4,11 +4,12 @@
 
               <div class="jumbotron">
                   <h1 class="display-3">DREAM MOTORCYCLE</h1>
-                  <p class="lead">INFORMACION DE VENTAS</p>
+                  <p class="lead">INFORMACION </p>
                   <hr class="my-2">
                   
                   <p class="lead">
                      <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">VER EMPLEADOS</a>
+                     <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">VER PRODUCTOS</a>
                   </p>
               </div>
 

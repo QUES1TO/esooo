@@ -64,13 +64,8 @@
         <h4>TRABAJO</h4>
         <a name="" id="" class="btn btn-primary" href="traba" role="button"> ver mas</a>
         </P>
-        <h4 class ="let">Una motocicleta naked es una motocicleta normalmente deportiva o superbike 
-        que carece de carenado. Por lo que gran parte de su mecánica está al descubierto​
-        ​ y, por tanto, es bastante más manejable y polivalente que una motocicleta 
-        deportiva al uso, aunque tiene peor resistencia aerodinámica.​</h4>
-    <img src="Views/img/naked.jpg" class="mot">
-        <h4>CIUDAD</h4>
-        <a name="" id="" class="btn btn-primary" href="#" role="button"> ver mas</a>
+        
+        
 </div>
 
 

@@ -7,9 +7,9 @@ require_once 'Comida.php';
 require_once 'Tipo.php';
 require_once 'Marca.php';
 require_once 'Nombre.php';
-require_once 'Cilindrada.php';
-require_once 'Moto.php';
 
+require_once 'Empleado.php';
+require_once 'Reporte.php';
 
 class Model
 {

@@ -30,10 +30,15 @@ $dispatcher = FastRoute\simpleDispatcher(function(FastRoute\RouteCollector $rout
     $router->addRoute('GET', '/Tipo', 'TipoController@index');
     $router->addRoute('GET', '/tipo/register', 'TipoController@registerForm');
     $router->addRoute('POST', '/tipo/create', 'TipoController@create');
-    $router->addRoute('GET', '/Cilindrada/register', 'CilindradaController@registerForm');
-    $router->addRoute('POST', '/Cilindrada/create', 'CilindradaController@create');
-    $router->addRoute('GET', '/Moto/register', 'MotoController@registerForm');
-    $router->addRoute('POST', '/Moto/create', 'MotoController@create');
+
+    $router->addRoute('GET', '/Empleado', 'EmpleadoController@index');
+    $router->addRoute('GET', '/empleado/register', 'EmpleadoController@registerForm');
+    $router->addRoute('POST', '/empleado/create', 'EmpleadoController@create');
+
+    $router->addRoute('GET', '/Reporte', 'ReporteController@index');
+    $router->addRoute('GET', '/reporte/register', 'ReporteController@registerForm');
+    $router->addRoute('POST', '/reporte/create', 'ReporteController@create');
+    
     $router->addRoute('GET', '/Marca/register', 'MarcaController@registerForm');
     $router->addRoute('POST', '/Marca/create', 'MarcaController@create');
     $router->addRoute('GET', '/Nombre/register', 'NombreController@registerForm');

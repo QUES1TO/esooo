@@ -1,5 +1,4 @@
-<a class="nav-item nav-link" href="<?php echo $url."/MVC/tipo/register";?>">TIPO</a>
-<a class="nav-item nav-link" href="<?php echo $url."/MVC/Cilindrada/register";?>">CILINDRADA</a>
-<a class="nav-item nav-link" href="<?php echo $url."/MVC/Moto/register";?>">MOTO</a>
-<a class="nav-item nav-link" href="<?php echo $url."/MVC/Marca/register";?>">MARCA</a>
-<a class="nav-item nav-link" href="<?php echo $url."/MVC/Nombre/register";?>">NOMBRE</a>
+<a class="nav-item nav-link" href="<?php echo $url."/MVC/tipo/register";?>">NUEVA MOTO</a>
+<a class="nav-item nav-link" href="<?php echo $url."/MVC/empleado/register";?>">NUEVO VENDEDOR</a>
+
+<a class="nav-item nav-link" href="<?php echo $url."/MVC/reporte/register";?>">REPORTE</a>

@@ -5,6 +5,8 @@ class Tipo extends Model {
          
     public $nombre;    
     public $descripcion;    
+    public $precio; 
+    public $modelo; 
     public $id;        
     private $data = [];
 
@@ -36,6 +38,7 @@ class Tipo extends Model {
     {
         return $this->id;
     }
+
     public function setNombre($nombre)
     {
         $this->nombre = $nombre;
@@ -45,6 +48,7 @@ class Tipo extends Model {
     {
         return $this->nombre;
     }
+
     public function setDescripcion($descripcion)
     {
         $this->descripcion = $descripcion;
@@ -55,5 +59,44 @@ class Tipo extends Model {
         return $this->descripcion;
     }    
     
+    public function setPrecio($precio)
+    {
+        $this->precio = $precio;
+        $this->data["Precio"] = $precio;
+    }
+    public function getPrecio()
+    {
+        return $this->precio;
+    } 
+
+    public function setModelo($modelo)
+    {
+        $this->modelo = $modelo;
+        $this->data["Modelo"] = $modelo;
+    }
+    public function getModelo()
+    {
+        return $this->modelo;
+    } 
+
+    public function setStock($stock)
+    {
+        $this->stock = $stock;
+        $this->data["Stock"] = $stock;
+    }
+    public function getStock()
+    {
+        return $this->stock;
+    } 
+
+    public function setCilindrada($cilindrada)
+    {
+        $this->cilindrada = $cilindrada;
+        $this->data["Cilindrada"] = $cilindrada;
+    }
+    public function getCilindrada()
+    {
+        return $this->cilindrada;
+    } 
 }
 ?>

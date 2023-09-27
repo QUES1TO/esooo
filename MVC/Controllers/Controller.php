@@ -7,11 +7,13 @@ require_once 'MainController.php';
 require_once 'ProductosController.php';
 require_once 'NosotrosController.php';
 require_once 'TipoController.php';
-require_once 'CilindradaController.php';
+require_once 'EmpleadoController.php';
+require_once 'ReporteController.php';
+
 require_once 'AdministradorController.php';
 require_once 'InicioController.php';
 require_once 'ProducController.php';
-require_once 'MotoController.php';
+
 require_once 'MarcaController.php';
 require_once 'NombreController.php';
 require_once 'NakedController.php';

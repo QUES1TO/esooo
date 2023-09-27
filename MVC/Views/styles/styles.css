@@ -112,18 +112,19 @@ table {
     width: 900px;
     box-shadow: 7px 13px 307px #000;
     position:absolute;
-    top: 200px;
+    top: 100px;
   left: 450px;
     
 }
 .mott{
-  width: 1200px;
+  width: 900px;
   box-shadow: 7px 13px 307px #000;
   position:absolute;
-  top: 900px;
-left: 350px;
+  top: 200px;
+left: 850px;
   
 }
+
 
 .moto{
   width: 900px;
@@ -149,7 +150,7 @@ left: 350px;
     color:rgb(7, 5, 5);
     text-shadow: 0 0 8px rgb(252, 242, 242) ;
     position:absolute;
-    top: 2%;
+    top: 23%;
     left: 30%;
     margin-top: 900px;
     text-align:unset;
@@ -159,7 +160,7 @@ left: 350px;
     color:rgb(8, 8, 8);
     text-shadow: 0 0 8px rgb(252, 242, 242) ;
     position:absolute;
-    top: 110%;
+    top: 130%;
     left: 5%;
     margin-top: 350px;
     text-align:unset;
@@ -241,4 +242,7 @@ left: 280px;
 }
 .fon{
   background: #2a7289;
+}
+.fila{
+  color: white;
 }
