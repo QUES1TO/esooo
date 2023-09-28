@@ -1,19 +1,6 @@
 
-<?php include ("admi/cabecera.php");?>
-<?php include ("admi/cabecera2.php");?>
-<h1 style="color: #192327;">aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa </h1>
 
-        
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Título de la página</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="<?php echo BASE_URL; ?>/Views/styles/styles.css">    
-    <style>
-    </style>
-</head>
-<body>
+
 <script src="<?php echo BASE_URL; ?>/Views/js/main.js"></script>
 <table>
   <thead">
@@ -38,9 +25,9 @@
       echo "<td>".$row->getApellido()."</td>";  
       echo "<td>".$row->getCi()."</td>"; 
       echo "<td>".$row->getIngreso()."</td>"; 
-      //echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
-      //echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
-      //echo "</tr>";
+      echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
+      echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
+      echo "</tr>";
       
     }
     ?>        

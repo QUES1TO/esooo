@@ -1,7 +1,7 @@
 
 <?php include ("admi/cabecera.php");?>
 <?php include ("admi/cabecera2.php");?>
-<h1 style="color: #192327;">aaaaaaajjjjjjjjjjjjjaaa </h1>
+<h1 style="color: #192327;">aaaaaaaaaaaaaaaaaaaaaaaaa </h1>
 
         
 <!DOCTYPE html>
@@ -37,9 +37,9 @@
       echo "<td>".$row->getTipo()."</td>";  
       echo "<td>".$row->getDescripcion()."</td>";  
       echo "<td>".$row->getEmpleado()."</td>"; 
-      echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
-      echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
-      echo "</tr>";
+      //echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
+      //echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
+      //echo "</tr>";
       
     }
     ?>        

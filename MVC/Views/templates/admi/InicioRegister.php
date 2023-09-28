@@ -8,8 +8,8 @@
                   <hr class="my-2">
                   
                   <p class="lead">
-                     <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">VER EMPLEADOS</a>
-                     <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">VER PRODUCTOS</a>
+                     <a class="btn btn-primary btn-lg" href="Empleado" role="button">VER EMPLEADOS</a>
+                     <a class="btn btn-primary btn-lg" href=" ../Tipo" role="button">VER PRODUCTOS</a>
                   </p>
               </div>
 

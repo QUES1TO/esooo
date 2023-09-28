@@ -87,7 +87,7 @@ public function delete($id)
         ];
         $user = Empleado::insert($data);
                     
-        $this->redirect("/esooo/MVC/Empleado");
+        $this->redirect("/esooo/MVC/inicio/Empleado");
     }
     
     

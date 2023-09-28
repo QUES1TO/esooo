@@ -42,9 +42,9 @@
       echo "<td>".$row->getModelo()."</td>"; 
       echo "<td>".$row->getStock()."</td>"; 
       echo "<td>".$row->getCilindrada()."</td>"; 
-      echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
-      echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
-      echo "</tr>";
+     // echo "<td><a href=\"".BASE_URL."/userEdit/".$row->getId()."\">Editar</a>";   
+     // echo '<td><a class="eliminar-btn" href="#">Eliminar</a></td>'; 
+     // echo "</tr>";
       
     }
     ?>        
